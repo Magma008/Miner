@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background: url("Images/mineshaft_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.first_color {
+    color: #b9f2ff;
+}
+
+.second_color_hover:hover {
+    color: #FFD700;
+    transition: all .3s linear;
+}
+
+.second_color {
+    color: #C264FF;
+}
+
+.third_color {
+    color: #FFD700;
+}
+
+.second_color_hover {
+    color: #C264FF;
+    transition: all .3s linear;
+}
+
+.bg-primary-color {
+    background: #b9f2ff;
+}
+
+.main_navbar {
+    background: rgba(185, 242, 255, 0.4);
+}
+
+.about_text {
+    line-height: 2;
+}
+
+.logo_1 {
+    border-radius: 50%;
+    width: 100%;
+    height: 80%;
+}
+
+.logo_2 {
+    border-radius: 50%;
+    width: 80%;
+    height: 100%;
+}
+
+.custom_button1 {
+    background: #FFD700;
+    color: #C264FF;
+    border: 1px solid #FFD700;
+    padding: 10px 40px;
+    transition: all .3s linear;
+}
+
+.custom_button1:hover {
+    background: transparent;
+    color: #FFD700;
+}
+
+.custom_button2 {
+    background: transparent;
+    color: #b9f2ff;
+    border: 1px solid #b9f2ff;
+    padding: 10px 40px;
+    transition: all .3s linear;
+}
+
+.custom_button2:hover {
+    background: #b9f2ff;
+    color: #FFD700;
+}
+
+.lists {
+    line-height: 2;
+}
+
+.link_hover {
+    color: gray;
+    transition: all .3s linear;
+}
+
+.link_hover:hover {
+    color: #b9f2ff;
+    text-decoration: underline !important;
+}
+
+.text_hover {
+    color: gray;
+    transition: all .3s linear;
+}
+
+.text_hover:hover {
+    color: #FFD700;
+}
